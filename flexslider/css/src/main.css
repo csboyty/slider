@@ -1,0 +1,45 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+
+/*****************************修改flexslider**********************/
+.flexslider .flex-control-nav{
+    /*bottom:inherit;
+    top:40px;*/
+    bottom:40px;
+}
+.flexslider .flex-control-paging li a{
+    background: #cecece;
+    /*border-radius: 0px;*/
+    box-shadow:none;
+}
+.flexslider .flex-control-paging li a:hover{
+    background: #666;
+}
+.flexslider .flex-control-paging li a.flex-active{
+    background: #cf0012;
+}
+.flexslider .detail{
+    position: absolute;
+    width: 50%;
+    height: 150px;
+    left:50%;
+    top:50%;
+    margin: -75px 0px 0px -25%;
+    text-align: center;
+    color: #fff;
+}
+.flexslider .detail .title{
+    font-size: 36px;
+    margin: 0px;
+    color: #fff;
+}
+.flexslider .detail .excerpt{
+    font-size: 16px;
+    line-height: 32px;
+    margin: 20px 0px;
+    color: #fff;
+}
