@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $('#slider').flexslider({
-        animation: "slide",
+        animation: "fade", //fade and slide
         controlNav: true,
         animationLoop: false,
         slideshow: false,
